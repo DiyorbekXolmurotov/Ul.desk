@@ -1,0 +1,98 @@
+.five-section {
+    display: flex;
+    justify-content: center;
+}
+
+.reder {
+    .name {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.reder__inner {
+    text-align: center;
+}
+
+.reder__heading {
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    text-align: center;
+    color: #151414;
+}
+
+.reder__text {
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3B433E;
+}
+
+.reder__list {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.reder__item {
+    width: 356px;
+    height: 450px;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    list-style-type: none;
+
+    &__title {
+        font-family: 'Sharp Sans No1';
+        font-style: normal;
+        font-weight: 770;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+        color: #181D19;
+    }
+
+    &__text {
+        font-family: 'Sharp Sans No1';
+        font-style: normal;
+        font-weight: 750;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        background: linear-gradient(180deg, #39463F 0%, #101612 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 56px;
+        width: 250px;
+        height: 250px;
+        background-image: url("../../images/image\ \(1\).svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    &:nth-child(2)::before {
+        background-image: url("../../images/image\ \(2\).svg");
+    }
+
+    &:nth-child(3)::before {
+        background-image: url("../../images/image.svg");
+    }
+}

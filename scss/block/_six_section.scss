@@ -1,0 +1,75 @@
+.six-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    .HKS {
+        .HKS_title {
+            font-family: 'Sharp Sans No1';
+            font-style: normal;
+            font-weight: 770;
+            font-size: 54px;
+            line-height: 68px;
+            text-align: center;
+            color: #151414;
+        }
+
+        .bus {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            .img_kh {
+                padding: 25px;
+                width: 514px;
+                height: 347px;
+                background: #FFFFFF;
+                border: 2px solid rgb(248, 244, 244);
+                border-radius: 8px;
+                .king {
+                    display: flex;
+                    gap: 30px;
+                    margin-bottom: 50px;
+                    .log {
+                        width: 186px;
+                        .log_title {
+                            font-family: 'Sharp Sans No1';
+                            font-style: normal;
+                            font-weight: 770;
+                            font-size: 20px;
+                            line-height: 25px;
+                            color: #333333;
+                        }
+
+                        .log_text {
+                            font-family: 'Sharp Sans No1';
+                            font-style: normal;
+                            font-weight: 760;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #888A9A;
+                        }
+                    }
+
+                    .log_img {
+                        margin-left: 90px;
+                    }
+                }
+
+                .log_text-tou {
+                    font-family: 'Sharp Sans No1';
+                    font-style: normal;
+                    font-weight: 750;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #181D19;
+                }
+            }
+        }
+
+        .imgs_box {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+}

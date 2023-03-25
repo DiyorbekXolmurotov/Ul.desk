@@ -1,0 +1,15 @@
+.sourse-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .one_peyg {
+        flex-direction: row-reverse;
+        display: flex;
+        gap: 100px;
+
+        .peyg_text {
+            margin-bottom: 60px;
+        }
+    }
+}

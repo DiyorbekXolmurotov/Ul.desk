@@ -1,0 +1,64 @@
+.header_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+    .navbar {
+        .navbar_list {
+            display: flex;
+            gap: 70px;
+            .navbar_item {
+                margin-top: 12px;
+                list-style-type: none;
+                .navbar_link {
+                    text-decoration: none;
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #2C3847;
+                    opacity: 0.8;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    &:hover {
+                        transition: 0.25s ease;
+                        color: #5FB848;
+                    }
+
+                    &--active {
+                        color: #5FB848;
+                    }
+                }
+            }
+
+            .imgs {
+                margin-top: 12px;
+                display: flex;
+                gap: 15px;
+            }
+
+            .header_btn {
+                text-decoration: none;
+                padding: 14px 30px;
+                background: #494949;
+                border-radius: 27px;
+                font-family: 'Sofia Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+
+                &:hover {
+                    background-color: #2C3847;
+                    transition: 0.50s ease;
+                }
+            }
+        }
+    }
+}

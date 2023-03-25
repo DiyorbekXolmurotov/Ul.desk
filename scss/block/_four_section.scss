@@ -1,0 +1,34 @@
+.four-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .one_peyg {
+        display: flex;
+        gap: 50px;
+    }
+
+    .windows {
+        padding: 0%;
+        .windows_list {
+            align-items: center;
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+
+            .vibir {
+                width: 20px;
+                height: 20px;
+            }
+
+            .windows_text {
+                font-family: 'Sharp Sans No1';
+                font-style: normal;
+                font-weight: 750;
+                font-size: 20px;
+                line-height: 25px;
+                color: #181D19;
+            }
+        }
+    }
+}

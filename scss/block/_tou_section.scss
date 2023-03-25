@@ -1,0 +1,29 @@
+.tou-section {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+    .About-us {
+        display: flex;
+        gap: 100px;
+
+        .peyg_box {
+            margin-top: 150px;
+
+            .peyg_text {
+                margin-bottom: 60px;
+            }
+        }
+        
+        .About_imgs {
+            display: flex;
+            gap: 20px;
+
+            .imgs_tou {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    }
+}

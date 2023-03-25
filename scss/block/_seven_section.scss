@@ -1,0 +1,42 @@
+.seven-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    .sttn {
+        .livik {
+            .livik_title {
+                font-family: 'Sharp Sans No1';
+                font-style: normal;
+                font-weight: 770;
+                font-size: 36px;
+                line-height: 45px;
+                text-align: center;
+                color: #151414;
+            }
+
+            .livik_text {
+                font-family: 'Sharp Sans No1';
+                font-style: normal;
+                font-weight: 750;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: center;
+                color: #3B433E;
+            }
+        }
+
+        .input_btn {
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            .input {
+                width: 330px;
+                height: 60px;
+                background: #FFFFFF;
+                border: 1.5px solid #F5F5F5;
+                border-radius: 165px;
+            }
+        }
+    }
+}
